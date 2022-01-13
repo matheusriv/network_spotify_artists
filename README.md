@@ -13,6 +13,6 @@ O dataset está disponível neste [link](https://www.aicrowd.com/challenges/spot
 <center><img width="600" src="https://github.com/matheusriv/network_spotify_artists/blob/main/images/spotify_network.png"></center>
 <center>
   
-Para explorar o grafo visite esse [link](matheusriv.github.io/network_spotify_artists/network).
+Para explorar o grafo visite esse [link](https://matheusriv.github.io/network_spotify_artists/network/).
  
 A página é uma visualização da rede criada usando o software Gephi, um pacote de software de código aberto para análise de redes e grafos. A rede foi exportada com o plug-in de exportação Sigma do Gephi.
