@@ -1,18 +1,20 @@
 # Network Spotify Artists
 
-Neste repositório é feito um estudo e uma rede de concorrência utilizando os nomes dos artistas das músicas de playlists encontradas num dataset. Para isso foi usado a linguagem de programação Python e pacotes para manusear os dados e gerar gráficos. Para a construção da rede foi utilizado o Spotify Million Playlist Dataset, que contém 1.000.000 playlists criadas por usuários na plataforma Spotify. A rede de coocorrência é construida com os nós representando os artistas e uma aresta é adicionada entre dois artistas quando eles se encontram na mesma lista de reprodução.
+In this repository, a study is carried out with a co-occurrence network using the names of the artists of the songs from playlists found in a dataset. For this, the Python programming language and some packages were used to handle the data and generate graphics.
+
+The Spotify Million Playlist Dataset was used to build the network, which contains 1,000,000 playlists created by users on the Spotify platform. The co-occurrence network is built with nodes representing the artists and an edge is added between two artists when they are on the same playlist.
 
 ## Dataset
   
-O Spotify Million Playlist Dataset pode ser usado por pesquisadores interessados em explorar como melhorar a experiência de escuta musical. Essas listas de reprodução foram criadas durante o período de janeiro de 2010 a outubro de 2017. Cada lista de reprodução no MPD contém um título de lista de reprodução, a lista de faixas (incluindo os metadados da faixa), informações de edição (hora da última edição, número de edições da lista de reprodução) e outras informações diversas sobre a lista de reprodução.
+The Spotify Million Playlist Dataset can be used by researchers interested in exploring how to improve the music listening experience. These playlists were created during the period from January 2010 to October 2017. Each playlist in the MPD contains a playlist title, the track list (including track metadata), editing information (time of last edit, number of edits of the playlist) and other miscellaneous information about the playlist.
    
-O dataset está disponível neste [link](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge). 
+The dataset is available [here](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge). 
   
 ## Network
 
 <center><img width="600" src="https://github.com/matheusriv/network_spotify_artists/blob/main/images/spotify_network.png"></center>
 <center>
   
-Para explorar o grafo visite esse [link](https://matheusriv.github.io/network_spotify_artists/network/).
+To explore the graph visit this [link](https://matheusriv.github.io/network_spotify_artists/network/).
  
-A página é uma visualização da rede criada usando o software Gephi, um pacote de software de código aberto para análise de redes e grafos. A rede foi exportada com o plug-in de exportação Sigma do Gephi.
+The page is a visualization of the network created using Gephi, an open source software package for analyzing networks and graphs. The network was exported with Gephi's Sigma export plugin.
